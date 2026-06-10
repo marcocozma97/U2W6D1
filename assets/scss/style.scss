@@ -46,11 +46,6 @@ body {
   &.dark {
     // Colori adatti per la dark mode
     @include tema(#121212, #e0e0e0, #212529, #333333, #adb5bd);
-    
-    // 8. Sostituzione colore navbar nel tema scuro
-    .navbar.bg-primary {
-      background-color: $brand-primary-dark !important;
-    }
   } 
 }
 
@@ -68,7 +63,7 @@ body {
   .card-title {
     font-weight: bold;
   }
-}
+} 
 
 /* Portfolio Page — Settimana V, Giorno II
    Refactoring con CSS positioning: header sticky, badge absolute,

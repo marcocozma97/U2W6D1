@@ -51,9 +51,6 @@ body.dark .modal-content {
   background-color: #212529;
   color: #e0e0e0;
 }
-body.dark .navbar.bg-primary {
-  background-color: rgb(1.5532786885, 76.887295082, 187.9467213115) !important;
-}
 
 /* 5. Nesting sulle Card */
 .card {
