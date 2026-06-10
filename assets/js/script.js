@@ -18,3 +18,14 @@ overlay.addEventListener("click", function (event) {
     overlay.setAttribute("hidden", "");
   }
 });
+
+//Funzionalità cambio tema
+const toggleBtn = document.getElementById("toggle-tema");
+
+toggleBtn.addEventListener("click", function () {
+  //Aggiunge o toglie la classe 'dark' dal body
+  document.body.classList.toggle("dark");
+  
+  //Aggiorna il testo del bottone in base al tema attivo
+  toggleBtn.textContent = document.body.classList.contains("dark") ? "Tema chiaro" : "Tema scuro";
+});
